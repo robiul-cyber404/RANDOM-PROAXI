@@ -9,6 +9,12 @@ E = '\x1b[1;93m'
 F = '\x1b[1;94m'
 G = '\x1b[1;95m'
 P = '\033[1;37m'
+RED = '\033[1;91m'
+WHITE = '\033[1;97m'
+GREEN = '\033[1;32m' #
+YELLOW = '\033[1;33m'
+BLUE = '\033[1;34m'
+ORANGE = '\033[1;35m'
 import os
 try:
 	import requests
@@ -85,6 +91,12 @@ E = '\x1b[1;93m'
 F = '\x1b[1;94m'
 G = '\x1b[1;95m'
 P = '\033[1;37m'
+RED = '\033[1;91m'
+WHITE = '\033[1;97m'
+GREEN = '\033[1;32m' #
+YELLOW = '\033[1;33m'
+BLUE = '\033[1;34m'
+ORANGE = '\033[1;35m'
 # Converter 
 dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'Agustus','9':'September','10':'October','11':'November','12':'December'}
 dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'Agustus','09':'September','10':'October','11':'November','12':'December'}
