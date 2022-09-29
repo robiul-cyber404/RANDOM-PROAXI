@@ -135,15 +135,7 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
-from time import localtime as lt
-from os import system as cmd
-ltx = int(lt()[3])
-if ltx > 12:
-    a = ltx-12
-    tag = "PM"
-else:
-    a = ltx
-    tag = "AM"
+
 logo =f"""{BLUE}########     ###    ##    ## #### ########  
 ##     ##   ## ##   ##   ##   ##  ##     ## 
 ##     ##  ##   ##  ##  ##    ##  ##     ## 
